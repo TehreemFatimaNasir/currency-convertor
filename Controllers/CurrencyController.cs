@@ -8,7 +8,7 @@ namespace currencyconvertor.Controllers
     {
         public IActionResult Index()
         {
-            ViewBag.Currencies = new List<string> { "USD", "EUR", "GBP", "PKR" };
+            ViewBag.Currencies = new List<string> { "USD", "EUR", "EGP", "PKR" };
             return View();
         }
 
@@ -19,7 +19,7 @@ namespace currencyconvertor.Controllers
  {
     { "USD", 1.0 },
     { "EUR", 0.91 },
-    { "GBP", 0.79 },
+    { "EGP", 48.0 },
     { "PKR", 277.25 }
   };
 
