@@ -1,0 +1,106 @@
+﻿@model currencyconvertor.Models.CurrencyConverter
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h2>Currency Converter</h2>
+
+<form method="post">
+    <label>Amount:</label>
+    <input type="number" asp-for="Amount" />
+
+    <label>From:</label>
+    <select asp-for="FromCurrency" asp-items="@(new SelectList(ViewBag.Currencies))"></select>
+
+    <label>To:</label>
+    <select asp-for="ToCurrency" asp-items="@(new SelectList(ViewBag.Currencies))"></select>
+
+    <button type="submit">Convert</button>
+</form>
+
+@if (Model != null && Model.ConvertedAmount > 0)
+{
+    <p>Converted Amount: @Model.ConvertedAmount</p>
+}
+
+
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #fef6fb; /* Soft pink background */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .container {
+        width: 350px;
+        background: #ffffff; /* White card */
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    h2 {
+        color: #ff85a2; /* Soft pastel pink */
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    label {
+        font-weight: bold;
+        color: #555; /* Soft gray */
+    }
+
+    input, select {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #ffb6c1; /* Pastel pink border */
+        border-radius: 8px;
+        font-size: 16px;
+        background: #fffafc; /* Light pink */
+        transition: 0.3s;
+    }
+
+        input:focus, select:focus {
+            background: #fff0f5;
+            outline: none;
+            border: 2px solid #ff85a2;
+        }
+
+    button {
+        background: #ffb6c1; /* Pastel pink */
+        color: white;
+        padding: 12px;
+        font-size: 18px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+
+        button:hover {
+            background: #ff85a2;
+            transform: scale(1.05);
+        }
+
+    .result {
+        margin-top: 20px;
+        padding: 12px;
+        border-radius: 8px;
+        font-weight: bold;
+        background: #ffe4e1; /* Light pastel */
+        color: #d6336c; /* Deep pink */
+        border: 2px solid #ff85a2;
+    }
+
+</style>

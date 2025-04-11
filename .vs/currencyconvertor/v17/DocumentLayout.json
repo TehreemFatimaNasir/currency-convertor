@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dell\\source\\repos\\currencyconvertor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D1928A-6BE8-441A-9D52-61C9FBEEB40D}|currencyconvertor.csproj|c:\\users\\dell\\source\\repos\\currencyconvertor\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D1928A-6BE8-441A-9D52-61C9FBEEB40D}|currencyconvertor.csproj|solutionrelative:controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D1928A-6BE8-441A-9D52-61C9FBEEB40D}|currencyconvertor.csproj|c:\\users\\dell\\source\\repos\\currencyconvertor\\models\\currencyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D1928A-6BE8-441A-9D52-61C9FBEEB40D}|currencyconvertor.csproj|solutionrelative:models\\currencyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D1928A-6BE8-441A-9D52-61C9FBEEB40D}|currencyconvertor.csproj|c:\\users\\dell\\source\\repos\\currencyconvertor\\views\\currency\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2D1928A-6BE8-441A-9D52-61C9FBEEB40D}|currencyconvertor.csproj|solutionrelative:views\\currency\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D1928A-6BE8-441A-9D52-61C9FBEEB40D}|currencyconvertor.csproj|c:\\users\\dell\\source\\repos\\currencyconvertor\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2D1928A-6BE8-441A-9D52-61C9FBEEB40D}|currencyconvertor.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D1928A-6BE8-441A-9D52-61C9FBEEB40D}|currencyconvertor.csproj|c:\\users\\dell\\source\\repos\\currencyconvertor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D1928A-6BE8-441A-9D52-61C9FBEEB40D}|currencyconvertor.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\currencyconvertor\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\currencyconvertor\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T19:08:12.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\currencyconvertor\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\currencyconvertor\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T18:52:54.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\currencyconvertor\\Views\\Currency\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Currency\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\currencyconvertor\\Views\\Currency\\Index.cshtml",
+              "RelativeToolTip": "Views\\Currency\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAYwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T18:52:35.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CurrencyController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\currencyconvertor\\Controllers\\CurrencyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CurrencyController.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\currencyconvertor\\Controllers\\CurrencyController.cs",
+              "RelativeToolTip": "Controllers\\CurrencyController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T18:43:08.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CurrencyConverter.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\currencyconvertor\\Models\\CurrencyConverter.cs",
+              "RelativeDocumentMoniker": "Models\\CurrencyConverter.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\currencyconvertor\\Models\\CurrencyConverter.cs",
+              "RelativeToolTip": "Models\\CurrencyConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T18:42:45.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
